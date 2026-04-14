@@ -88,7 +88,8 @@
   .d5 { transition-delay: 0.40s; } .d6 { transition-delay: 0.48s; }
 
   /* ── HERO ── */
-  .hero { background: var(--pure-black); text-align: center; flex-direction: column; justify-content: center; }
+  .hero { background: var(--pure-black); text-align: center; flex-direction: column; justify-content: center; position: relative; }
+  .hero-attribution { position: absolute; bottom: 32px; right: 40px; font-size: 13px; color: var(--white-48); letter-spacing: -0.12px; text-align: right; }
   .hero-eyebrow { font-size: 12px; font-weight: 600; color: var(--apple-blue); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 20px; }
   .hero h1 { font-family: var(--font-display); font-size: clamp(40px, 5.5vw, 56px); font-weight: 600; line-height: 1.07; letter-spacing: -0.28px; color: var(--white); margin-bottom: 20px; max-width: 760px; margin-left: auto; margin-right: auto; }
   .hero-sub { font-family: var(--font-display); font-size: clamp(18px, 2.5vw, 24px); font-weight: 300; line-height: 1.33; color: var(--white-80); max-width: 560px; margin: 0 auto 40px; }
@@ -321,11 +322,6 @@
     <div class="hero-eyebrow rv">Google 搜索广告策略 · SEM 提案</div>
     <h1 class="rv d1">MC Markets 2026<br>全球 Google 搜索广告策略</h1>
     <p class="hero-sub rv d2">从点击到入金的全链路获客方案</p>
-    <div class="hero-meta rv d3">
-      <div class="hero-meta-item"><strong>提案对象</strong>MC Markets 市场团队</div>
-      <div class="hero-meta-item"><strong>策略周期</strong>2026 年 Q2 – Q3</div>
-      <div class="hero-meta-item"><strong>核心目标</strong>品牌曝光及获取首批高净值入金用户</div>
-    </div>
     <div class="hero-kpis rv d4">
       <div class="hero-kpi">
         <div class="hero-kpi-label">核心目标</div>
@@ -340,6 +336,10 @@
       <a class="btn-blue" href="#budget">查看预算方案</a>
       <a class="btn-outline-white" href="#market">了解市场概况</a>
     </div>
+  </div>
+  <div class="hero-attribution rv d6">
+    <div style="font-size:11px; text-transform:uppercase; letter-spacing:0.8px; color:var(--white-48); margin-bottom:4px;">提案对象</div>
+    MC Markets 市场团队
   </div>
 </section>
 
